@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Raymond Preston">
+        <meta name="description" content="This is pacman exersize">
+        <title>Pacman exersize</title>
+        <link rel="icon" href="PacManicon" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <script src="main.js" defer></script>
+    </head>
+
+    <body>
+        <div id='game'>
+            <button id='addPacManButton' onclick='makeOne()' width='200' height='30'>Add PacMan</button>
+            <button id='startGameButton' onclick='update()' width='200' height='30'>Start Game</button>
+            <button onclick='clearPacMen()' width='200' height='30'>Clear</button>
+        </div>
+
+    <div id="overlay"></div> <!-- Add overlay here -->
+
+    <div class="container">
+        <div class="ghost">
+        <div class="body"></div>
+        <div class="eye left"></div>
+         <div class="eye right"></div>
+    </div>
+</div>
+    
+    </body>
+</html>
